@@ -1,0 +1,147 @@
+.Nav1{
+    display: flex;
+    background-image: url("../../public/image/medi1.webp");
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    height: 100vh;
+    min-width: 100%;
+    flex-direction: column;
+    
+}
+
+.about{
+    background-color: rgba(5.10, 0, 255, 0.04);
+    margin-top: -5px;
+    height: 100vh;
+}
+
+.about-image img{
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.about-description {
+    color: black;
+    font-size: 25;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 2.50;
+    word-wrap: 'break-word';
+}
+
+.ab1{
+    color: #132C70;
+    font-family: 'lato';
+    font-weight: 600;
+}
+.contact {
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 8%;
+    font-size: 20px;
+    font-family: 'lato';
+    font-weight: 200;
+}
+.contact .contact-form-item {
+    border: 1px solid #ACA4A4;
+}
+.contact .contact-button {
+    border: none;
+    margin: 1rem 15rem ;
+    font-size: 20px;
+    font-family: 'lato';
+    font-weight: 400;
+    background-color: white;
+
+}
+.contact .contact-button:hover {
+    color: rgba(54, 54, 54, 0.612);
+}
+.shop-header{
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'lato';
+   
+    color: #132C70;
+
+}
+
+.shop-header h2 {
+    margin-bottom: 1rem;
+    font-size: 45;
+    font-weight: 600;
+}
+
+.shop-item-card {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items:center;
+    justify-content: center;
+    color: #132C70; 
+    font-family: 'lato';
+    padding-top: 5rem;
+    padding-right: 20rem;
+
+}
+.item-description{
+    width: 40%;
+}
+.item-name {
+    
+    font-weight: bolder;
+    font-size: larger;
+    
+
+}
+.item-mrp {
+    color: #132C70;
+    font-weight: light;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.item-quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.item-quantity .quantity-heading {
+    margin-right: 15rem;
+
+}
+.item-quantity button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: #EBEBEC;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    
+
+}
+.count-quantity {
+    background-color: #EBEBEC;
+    height: 28px;
+    width: 30px;
+    text-align: center;
+    
+
+}
+.shop-header-search {
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    gap: 15rem;
+    margin-left: 41%;
+
+}
+
+  
+
+

@@ -1,0 +1,26 @@
+body{
+    background-image: url("../../public/image/");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s1 {
+    margin: 0 auto;
+    max-width: 30%;
+    margin-top: 7%;
+    border: 5px solid hsla(0, 16%, 78%, 0.461);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.s1 h3 {
+    text-align: center;
+    margin: 1rem 2rem 3rem ;
+    
+}
+.s2 button {
+    margin: 2rem 38% 0px;
+    border: 1px solid hsla(0, 1%, 41%, 0.43);
+}
+

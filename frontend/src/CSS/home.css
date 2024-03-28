@@ -1,0 +1,27 @@
+.parallax-container2 {
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    
+}
+#home1 {
+    text-align: center;
+    font-family: "Inter";
+    font-size: 38px;
+    color: #3B3A58;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.home2{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    font-family: "Inter";
+    font-size: 30px;
+    text-align: center;
+    place-items: center;
+
+}
